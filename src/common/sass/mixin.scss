@@ -1,0 +1,10 @@
+$line-height-def:100px;
+
+@mixin base-box($height,$width:100%) {
+  width: $width;
+  height: $height;
+}
+
+%line-height{
+  line-height:$line-height-def;
+}
